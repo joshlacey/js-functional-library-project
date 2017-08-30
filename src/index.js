@@ -40,7 +40,7 @@ const fi = (function() {
     })
       return returnVal
     },
-  reduce: function reduce(list, iteratee, initVal){
+  reduce: function  (list, iteratee, initVal){
     	let startingEl = initVal ? initVal : list[0]
     	let i = initVal ? 0 : 1
 
