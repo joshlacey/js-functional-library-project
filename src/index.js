@@ -101,6 +101,18 @@ const fi = (function() {
     last: function(array, n = 1){
     	return array.slice((array.length - n), array.length)
     },
+
+    compact: function(list){
+    	return this.filter(list, function(element) {return element})
+    },
+
+    // flatten: function() {},
+ 
+    // uniq: function(list, isSorted, iteratee) {
+    // 	return this.filter(list, function(element) {
+    // 		!list.includes(element)
+    // 	} )
+    // },
 }
 
 
